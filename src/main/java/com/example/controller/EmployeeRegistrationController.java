@@ -44,7 +44,7 @@ public class EmployeeRegistrationController {
 		try{
 		return employeeRepository.findById(id).get();
 		} catch (NoSuchElementException exception) {
-			 new Employee();
+			 new Employee(); 
 		}
 		return null;
 	}
